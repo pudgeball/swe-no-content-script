@@ -1,0 +1,939 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEB448C92672AD9400E1BA05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB448C82672AD9400E1BA05 /* AppDelegate.swift */; };
+		DEB448CB2672AD9400E1BA05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB448CA2672AD9400E1BA05 /* SceneDelegate.swift */; };
+		DEB448CE2672AD9400E1BA05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB448CC2672AD9400E1BA05 /* LaunchScreen.storyboard */; };
+		DEB448D12672AD9400E1BA05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB448CF2672AD9400E1BA05 /* Main.storyboard */; };
+		DEB448DA2672AD9400E1BA05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB448D92672AD9400E1BA05 /* AppDelegate.swift */; };
+		DEB448DD2672AD9400E1BA05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB448DB2672AD9400E1BA05 /* Main.storyboard */; };
+		DEB448E52672AD9400E1BA05 /* swe-no-content-script Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DEB448E42672AD9400E1BA05 /* swe-no-content-script Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DEB448EF2672AD9400E1BA05 /* swe-no-content-script Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DEB448EE2672AD9400E1BA05 /* swe-no-content-script Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DEB448F42672AD9400E1BA05 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = DEB448B82672AD9300E1BA05 /* Main.html */; };
+		DEB448F52672AD9400E1BA05 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = DEB448B82672AD9300E1BA05 /* Main.html */; };
+		DEB448F62672AD9400E1BA05 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB448BA2672AD9300E1BA05 /* Icon.png */; };
+		DEB448F72672AD9400E1BA05 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB448BA2672AD9300E1BA05 /* Icon.png */; };
+		DEB448F82672AD9400E1BA05 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = DEB448BB2672AD9300E1BA05 /* Style.css */; };
+		DEB448F92672AD9400E1BA05 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = DEB448BB2672AD9300E1BA05 /* Style.css */; };
+		DEB448FA2672AD9400E1BA05 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = DEB448BC2672AD9300E1BA05 /* Script.js */; };
+		DEB448FB2672AD9400E1BA05 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = DEB448BC2672AD9300E1BA05 /* Script.js */; };
+		DEB448FC2672AD9400E1BA05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB448BD2672AD9300E1BA05 /* ViewController.swift */; };
+		DEB448FD2672AD9400E1BA05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB448BD2672AD9300E1BA05 /* ViewController.swift */; };
+		DEB448FE2672AD9400E1BA05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB448BE2672AD9400E1BA05 /* Assets.xcassets */; };
+		DEB448FF2672AD9400E1BA05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB448BE2672AD9400E1BA05 /* Assets.xcassets */; };
+		DEB449002672AD9400E1BA05 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB448C02672AD9400E1BA05 /* SafariWebExtensionHandler.swift */; };
+		DEB449012672AD9400E1BA05 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB448C02672AD9400E1BA05 /* SafariWebExtensionHandler.swift */; };
+		DEB4491A2672AD9400E1BA05 /* browser-polyfill-min.js in Resources */ = {isa = PBXBuildFile; fileRef = DEB449132672AD9400E1BA05 /* browser-polyfill-min.js */; };
+		DEB4491B2672AD9400E1BA05 /* app in Resources */ = {isa = PBXBuildFile; fileRef = DEB449142672AD9400E1BA05 /* app */; };
+		DEB4491C2672AD9400E1BA05 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = DEB449152672AD9400E1BA05 /* background.js */; };
+		DEB4491D2672AD9400E1BA05 /* images in Resources */ = {isa = PBXBuildFile; fileRef = DEB449162672AD9400E1BA05 /* images */; };
+		DEB4491E2672AD9400E1BA05 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DEB449172672AD9400E1BA05 /* manifest.json */; };
+		DEB4491F2672AD9400E1BA05 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = DEB449182672AD9400E1BA05 /* _locales */; };
+		DEB449202672AD9400E1BA05 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = DEB449192672AD9400E1BA05 /* content.js */; };
+		DEB449212672AD9400E1BA05 /* browser-polyfill-min.js in Resources */ = {isa = PBXBuildFile; fileRef = DEB449132672AD9400E1BA05 /* browser-polyfill-min.js */; };
+		DEB449222672AD9400E1BA05 /* app in Resources */ = {isa = PBXBuildFile; fileRef = DEB449142672AD9400E1BA05 /* app */; };
+		DEB449232672AD9400E1BA05 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = DEB449152672AD9400E1BA05 /* background.js */; };
+		DEB449242672AD9400E1BA05 /* images in Resources */ = {isa = PBXBuildFile; fileRef = DEB449162672AD9400E1BA05 /* images */; };
+		DEB449252672AD9400E1BA05 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DEB449172672AD9400E1BA05 /* manifest.json */; };
+		DEB449262672AD9400E1BA05 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = DEB449182672AD9400E1BA05 /* _locales */; };
+		DEB449272672AD9400E1BA05 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = DEB449192672AD9400E1BA05 /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEB448E62672AD9400E1BA05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEB448B22672AD9300E1BA05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEB448E32672AD9400E1BA05;
+			remoteInfo = "swe-no-content-script Extension (iOS)";
+		};
+		DEB448F02672AD9400E1BA05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEB448B22672AD9300E1BA05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEB448ED2672AD9400E1BA05;
+			remoteInfo = "swe-no-content-script Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DEB449072672AD9400E1BA05 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DEB448E52672AD9400E1BA05 /* swe-no-content-script Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB4490E2672AD9400E1BA05 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DEB448EF2672AD9400E1BA05 /* swe-no-content-script Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DEB448B92672AD9300E1BA05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		DEB448BA2672AD9300E1BA05 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DEB448BB2672AD9300E1BA05 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		DEB448BC2672AD9300E1BA05 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		DEB448BD2672AD9300E1BA05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEB448BE2672AD9400E1BA05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEB448C02672AD9400E1BA05 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		DEB448C52672AD9400E1BA05 /* swe-no-content-script.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swe-no-content-script.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB448C82672AD9400E1BA05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEB448CA2672AD9400E1BA05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DEB448CD2672AD9400E1BA05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEB448D02672AD9400E1BA05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEB448D22672AD9400E1BA05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB448D72672AD9400E1BA05 /* swe-no-content-script.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swe-no-content-script.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB448D92672AD9400E1BA05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEB448DC2672AD9400E1BA05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEB448DE2672AD9400E1BA05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB448DF2672AD9400E1BA05 /* swe-no-content-script.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "swe-no-content-script.entitlements"; sourceTree = "<group>"; };
+		DEB448E42672AD9400E1BA05 /* swe-no-content-script Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "swe-no-content-script Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB448E92672AD9400E1BA05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB448EE2672AD9400E1BA05 /* swe-no-content-script Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "swe-no-content-script Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB448F32672AD9400E1BA05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB449132672AD9400E1BA05 /* browser-polyfill-min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "browser-polyfill-min.js"; path = "Resources/browser-polyfill-min.js"; sourceTree = "<group>"; };
+		DEB449142672AD9400E1BA05 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; name = app; path = Resources/app; sourceTree = "<group>"; };
+		DEB449152672AD9400E1BA05 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		DEB449162672AD9400E1BA05 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
+		DEB449172672AD9400E1BA05 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		DEB449182672AD9400E1BA05 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = Resources/_locales; sourceTree = "<group>"; };
+		DEB449192672AD9400E1BA05 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = Resources/content.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEB448C22672AD9400E1BA05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB448D42672AD9400E1BA05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB448E12672AD9400E1BA05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB448EB2672AD9400E1BA05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEB448B12672AD9300E1BA05 = {
+			isa = PBXGroup;
+			children = (
+				DEB448B62672AD9300E1BA05 /* Shared (App) */,
+				DEB448BF2672AD9400E1BA05 /* Shared (Extension) */,
+				DEB448C72672AD9400E1BA05 /* iOS (App) */,
+				DEB448D82672AD9400E1BA05 /* macOS (App) */,
+				DEB448E82672AD9400E1BA05 /* iOS (Extension) */,
+				DEB448F22672AD9400E1BA05 /* macOS (Extension) */,
+				DEB448C62672AD9400E1BA05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEB448B62672AD9300E1BA05 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				DEB448BD2672AD9300E1BA05 /* ViewController.swift */,
+				DEB448BE2672AD9400E1BA05 /* Assets.xcassets */,
+				DEB448B72672AD9300E1BA05 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		DEB448B72672AD9300E1BA05 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DEB448B82672AD9300E1BA05 /* Main.html */,
+				DEB448BA2672AD9300E1BA05 /* Icon.png */,
+				DEB448BB2672AD9300E1BA05 /* Style.css */,
+				DEB448BC2672AD9300E1BA05 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DEB448BF2672AD9400E1BA05 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				DEB449122672AD9400E1BA05 /* Resources */,
+				DEB448C02672AD9400E1BA05 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		DEB448C62672AD9400E1BA05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEB448C52672AD9400E1BA05 /* swe-no-content-script.app */,
+				DEB448D72672AD9400E1BA05 /* swe-no-content-script.app */,
+				DEB448E42672AD9400E1BA05 /* swe-no-content-script Extension.appex */,
+				DEB448EE2672AD9400E1BA05 /* swe-no-content-script Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEB448C72672AD9400E1BA05 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				DEB448C82672AD9400E1BA05 /* AppDelegate.swift */,
+				DEB448CA2672AD9400E1BA05 /* SceneDelegate.swift */,
+				DEB448CC2672AD9400E1BA05 /* LaunchScreen.storyboard */,
+				DEB448CF2672AD9400E1BA05 /* Main.storyboard */,
+				DEB448D22672AD9400E1BA05 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		DEB448D82672AD9400E1BA05 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				DEB448D92672AD9400E1BA05 /* AppDelegate.swift */,
+				DEB448DB2672AD9400E1BA05 /* Main.storyboard */,
+				DEB448DE2672AD9400E1BA05 /* Info.plist */,
+				DEB448DF2672AD9400E1BA05 /* swe-no-content-script.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		DEB448E82672AD9400E1BA05 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				DEB448E92672AD9400E1BA05 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		DEB448F22672AD9400E1BA05 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				DEB448F32672AD9400E1BA05 /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		DEB449122672AD9400E1BA05 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DEB449132672AD9400E1BA05 /* browser-polyfill-min.js */,
+				DEB449142672AD9400E1BA05 /* app */,
+				DEB449152672AD9400E1BA05 /* background.js */,
+				DEB449162672AD9400E1BA05 /* images */,
+				DEB449172672AD9400E1BA05 /* manifest.json */,
+				DEB449182672AD9400E1BA05 /* _locales */,
+				DEB449192672AD9400E1BA05 /* content.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEB448C42672AD9400E1BA05 /* swe-no-content-script (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB449082672AD9400E1BA05 /* Build configuration list for PBXNativeTarget "swe-no-content-script (iOS)" */;
+			buildPhases = (
+				DEB448C12672AD9400E1BA05 /* Sources */,
+				DEB448C22672AD9400E1BA05 /* Frameworks */,
+				DEB448C32672AD9400E1BA05 /* Resources */,
+				DEB449072672AD9400E1BA05 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEB448E72672AD9400E1BA05 /* PBXTargetDependency */,
+			);
+			name = "swe-no-content-script (iOS)";
+			productName = "swe-no-content-script (iOS)";
+			productReference = DEB448C52672AD9400E1BA05 /* swe-no-content-script.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEB448D62672AD9400E1BA05 /* swe-no-content-script (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB4490F2672AD9400E1BA05 /* Build configuration list for PBXNativeTarget "swe-no-content-script (macOS)" */;
+			buildPhases = (
+				DEB448D32672AD9400E1BA05 /* Sources */,
+				DEB448D42672AD9400E1BA05 /* Frameworks */,
+				DEB448D52672AD9400E1BA05 /* Resources */,
+				DEB4490E2672AD9400E1BA05 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEB448F12672AD9400E1BA05 /* PBXTargetDependency */,
+			);
+			name = "swe-no-content-script (macOS)";
+			productName = "swe-no-content-script (macOS)";
+			productReference = DEB448D72672AD9400E1BA05 /* swe-no-content-script.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEB448E32672AD9400E1BA05 /* swe-no-content-script Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB449042672AD9400E1BA05 /* Build configuration list for PBXNativeTarget "swe-no-content-script Extension (iOS)" */;
+			buildPhases = (
+				DEB448E02672AD9400E1BA05 /* Sources */,
+				DEB448E12672AD9400E1BA05 /* Frameworks */,
+				DEB448E22672AD9400E1BA05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swe-no-content-script Extension (iOS)";
+			productName = "swe-no-content-script Extension (iOS)";
+			productReference = DEB448E42672AD9400E1BA05 /* swe-no-content-script Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DEB448ED2672AD9400E1BA05 /* swe-no-content-script Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB4490B2672AD9400E1BA05 /* Build configuration list for PBXNativeTarget "swe-no-content-script Extension (macOS)" */;
+			buildPhases = (
+				DEB448EA2672AD9400E1BA05 /* Sources */,
+				DEB448EB2672AD9400E1BA05 /* Frameworks */,
+				DEB448EC2672AD9400E1BA05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swe-no-content-script Extension (macOS)";
+			productName = "swe-no-content-script Extension (macOS)";
+			productReference = DEB448EE2672AD9400E1BA05 /* swe-no-content-script Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEB448B22672AD9300E1BA05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DEB448C42672AD9400E1BA05 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DEB448D62672AD9400E1BA05 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DEB448E32672AD9400E1BA05 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DEB448ED2672AD9400E1BA05 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = DEB448B52672AD9300E1BA05 /* Build configuration list for PBXProject "swe-no-content-script" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEB448B12672AD9300E1BA05;
+			productRefGroup = DEB448C62672AD9400E1BA05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEB448C42672AD9400E1BA05 /* swe-no-content-script (iOS) */,
+				DEB448D62672AD9400E1BA05 /* swe-no-content-script (macOS) */,
+				DEB448E32672AD9400E1BA05 /* swe-no-content-script Extension (iOS) */,
+				DEB448ED2672AD9400E1BA05 /* swe-no-content-script Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEB448C32672AD9400E1BA05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB448F62672AD9400E1BA05 /* Icon.png in Resources */,
+				DEB448CE2672AD9400E1BA05 /* LaunchScreen.storyboard in Resources */,
+				DEB448F42672AD9400E1BA05 /* Main.html in Resources */,
+				DEB448FA2672AD9400E1BA05 /* Script.js in Resources */,
+				DEB448FE2672AD9400E1BA05 /* Assets.xcassets in Resources */,
+				DEB448D12672AD9400E1BA05 /* Main.storyboard in Resources */,
+				DEB448F82672AD9400E1BA05 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB448D52672AD9400E1BA05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB448F72672AD9400E1BA05 /* Icon.png in Resources */,
+				DEB448F92672AD9400E1BA05 /* Style.css in Resources */,
+				DEB448DD2672AD9400E1BA05 /* Main.storyboard in Resources */,
+				DEB448FB2672AD9400E1BA05 /* Script.js in Resources */,
+				DEB448FF2672AD9400E1BA05 /* Assets.xcassets in Resources */,
+				DEB448F52672AD9400E1BA05 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB448E22672AD9400E1BA05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB449262672AD9400E1BA05 /* _locales in Resources */,
+				DEB449242672AD9400E1BA05 /* images in Resources */,
+				DEB449222672AD9400E1BA05 /* app in Resources */,
+				DEB449252672AD9400E1BA05 /* manifest.json in Resources */,
+				DEB449232672AD9400E1BA05 /* background.js in Resources */,
+				DEB449272672AD9400E1BA05 /* content.js in Resources */,
+				DEB449212672AD9400E1BA05 /* browser-polyfill-min.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB448EC2672AD9400E1BA05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB4491F2672AD9400E1BA05 /* _locales in Resources */,
+				DEB4491D2672AD9400E1BA05 /* images in Resources */,
+				DEB4491B2672AD9400E1BA05 /* app in Resources */,
+				DEB4491E2672AD9400E1BA05 /* manifest.json in Resources */,
+				DEB4491C2672AD9400E1BA05 /* background.js in Resources */,
+				DEB449202672AD9400E1BA05 /* content.js in Resources */,
+				DEB4491A2672AD9400E1BA05 /* browser-polyfill-min.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEB448C12672AD9400E1BA05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB448FC2672AD9400E1BA05 /* ViewController.swift in Sources */,
+				DEB448C92672AD9400E1BA05 /* AppDelegate.swift in Sources */,
+				DEB448CB2672AD9400E1BA05 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB448D32672AD9400E1BA05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB448FD2672AD9400E1BA05 /* ViewController.swift in Sources */,
+				DEB448DA2672AD9400E1BA05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB448E02672AD9400E1BA05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB449002672AD9400E1BA05 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB448EA2672AD9400E1BA05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB449012672AD9400E1BA05 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEB448E72672AD9400E1BA05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEB448E32672AD9400E1BA05 /* swe-no-content-script Extension (iOS) */;
+			targetProxy = DEB448E62672AD9400E1BA05 /* PBXContainerItemProxy */;
+		};
+		DEB448F12672AD9400E1BA05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEB448ED2672AD9400E1BA05 /* swe-no-content-script Extension (macOS) */;
+			targetProxy = DEB448F02672AD9400E1BA05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEB448B82672AD9300E1BA05 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEB448B92672AD9300E1BA05 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		DEB448CC2672AD9400E1BA05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEB448CD2672AD9400E1BA05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DEB448CF2672AD9400E1BA05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEB448D02672AD9400E1BA05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEB448DB2672AD9400E1BA05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEB448DC2672AD9400E1BA05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEB449022672AD9400E1BA05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEB449032672AD9400E1BA05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DEB449052672AD9400E1BA05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-no-content-script Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-no-content-script.Extension";
+				PRODUCT_NAME = "swe-no-content-script Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEB449062672AD9400E1BA05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-no-content-script Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-no-content-script.Extension";
+				PRODUCT_NAME = "swe-no-content-script Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEB449092672AD9400E1BA05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-no-content-script";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-no-content-script";
+				PRODUCT_NAME = "swe-no-content-script";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEB4490A2672AD9400E1BA05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-no-content-script";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-no-content-script";
+				PRODUCT_NAME = "swe-no-content-script";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEB4490C2672AD9400E1BA05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-no-content-script Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-no-content-script.Extension";
+				PRODUCT_NAME = "swe-no-content-script Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DEB4490D2672AD9400E1BA05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-no-content-script Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-no-content-script.Extension";
+				PRODUCT_NAME = "swe-no-content-script Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DEB449102672AD9400E1BA05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/swe-no-content-script.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-no-content-script";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-no-content-script";
+				PRODUCT_NAME = "swe-no-content-script";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DEB449112672AD9400E1BA05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/swe-no-content-script.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-no-content-script";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-no-content-script";
+				PRODUCT_NAME = "swe-no-content-script";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEB448B52672AD9300E1BA05 /* Build configuration list for PBXProject "swe-no-content-script" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB449022672AD9400E1BA05 /* Debug */,
+				DEB449032672AD9400E1BA05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEB449042672AD9400E1BA05 /* Build configuration list for PBXNativeTarget "swe-no-content-script Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB449052672AD9400E1BA05 /* Debug */,
+				DEB449062672AD9400E1BA05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEB449082672AD9400E1BA05 /* Build configuration list for PBXNativeTarget "swe-no-content-script (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB449092672AD9400E1BA05 /* Debug */,
+				DEB4490A2672AD9400E1BA05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEB4490B2672AD9400E1BA05 /* Build configuration list for PBXNativeTarget "swe-no-content-script Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB4490C2672AD9400E1BA05 /* Debug */,
+				DEB4490D2672AD9400E1BA05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEB4490F2672AD9400E1BA05 /* Build configuration list for PBXNativeTarget "swe-no-content-script (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB449102672AD9400E1BA05 /* Debug */,
+				DEB449112672AD9400E1BA05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEB448B22672AD9300E1BA05 /* Project object */;
+}
